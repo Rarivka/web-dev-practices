@@ -1,0 +1,108 @@
+body {
+    color: #161616;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+a {
+    color: #161616;
+    text-decoration: none;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: #D73953;
+}
+
+.section-tagline {
+    color: #D73953;
+}
+
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+    --section-header-align: center;
+    --section-tagline: center
+    --section-tagline-transform: uppercase ;
+    --section-tittle-margin: 0 ;
+    --section-title-color:var(--color-primary)
+}
+/* Nueva declaración para la clase section-header */
+.section-header {
+    text-align: var(--section-header-align);
+}
+.section-tagline {
+    /* Aquí iría el estilo original de section-tagline si existiera */
+
+    font-family: font-family-title;                  /* Familia de fuentes */
+    text-transform: var(--section-tagline-transform); /* Transformación del texto */
+    font-weight: font-weight-bold;                   /* Peso de la fuente */
+    font-size: 1.5em;                               /* Tamaño de fuente */
+    color: #333;                                    /* Color del texto */
+    letter-spacing: 1px;                            /* Espaciado entre letras */
+    line-height: 1.6;                               /* Altura de línea */
+    text-align: center;                             /* Alineación horizontal */
+    padding: 10px 20px;                             /* Relleno interno */
+    background-color: #f5f5f5;                      /* Color de fondo */
+    border-bottom: 2px solid #000;                  /* Borde inferior */
+}
+
+
+/* Definir la propiedad personalizada */
+:root {
+    --section-tagline-transform: uppercase;
+}
+
+/* Estilizar la clase section-tagline con más propiedades */
+.section-tagline {
+    font-family: font-family-title;                  /* Familia de fuentes */
+    text-transform: var(--section-tagline-transform); /* Transformación del texto */
+    font-weight: font-weight-bold;                   /* Peso de la fuente */
+    font-size: 1.8em;                               /* Tamaño de fuente */
+    color: #2c3e50;                                 /* Color oscuro */
+    letter-spacing: 2px;                            /* Espaciado entre letras */
+    text-align: center;                             /* Alineación centrada */
+    padding: 15px 25px;                             /* Relleno */
+    background-color: #ecf0f1;                      /* Fondo claro */
+    border-radius: 8px;                             /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);      /* Sombra sutil */
+    transition: background-color 0.3s ease;         /* Transición suave */
+}
+
+.section-tagline:hover {
+    background-color: #bdc3c7;                      /* Cambio al pasar el ratón */
+
+
+
+
+
+}
+.section
