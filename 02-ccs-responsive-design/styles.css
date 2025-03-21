@@ -314,6 +314,24 @@ ul.row {
   text-decoration: none;
 }
 
+.card-testimonial {
+  text-align: center;
+  padding-top: 1rem; /* Nuevo: padding superior de 1rem */
+  color: var(--color-primary); /* Nuevo: color del texto a color-primary */
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1rem;
+  color: var(--color-primary);
+}
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -321,10 +339,8 @@ ul.row {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif;
-  --font-family-title: "Raleway", "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif;
+  --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-family-title: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -375,21 +391,4 @@ h6 {
 }
 .footer {
   padding: var(--footer-padding);
-}
-
-.card-testimonial {
-    text-align: center;
-}
-
-.card-testimonial .card-avatar {
-    border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
-
-}
-
-.card-testimonial .card-quote cite {
-    display: block;
-    padding-top: 1rem;
-    color: var(--color-primary);
 }
