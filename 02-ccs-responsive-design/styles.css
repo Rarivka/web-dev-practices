@@ -146,6 +146,7 @@ template {
   display: none;
 }
 
+
 /* Regla universal de box-sizing añadida antes de html */
 *,
 *::before,
@@ -435,4 +436,68 @@ h6 {
 }
 .footer {
   padding: var(--footer-padding);
+}
+
+/* Breakpoint: 768px */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-1-2-flex {
+    width: 100%;
+  }
+  
+
+  .featured-image {
+    margin-bottom: 10px;
+  }
+
+  .section-body {
+    padding: 0 0 2rem;
+  }
+
+  .nav .nav-item {
+    margin: 0 1rem;
+  }
+
+  .section-title {
+    font-size: var(--font-size-x-large);
+  }
+
+  .section-tagline {
+    font-size: var(--font-size-large);
+  }
+
+  .section-header {
+    padding: 0 0 2rem;
+  }
+
+  .section-body {
+    padding: 0 0 2rem;
+  }
+
+  .section-footer {
+    padding: 2rem 0 0;
+  }
+
+  .footer {
+    padding: 2rem 0 1rem;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer-address {
+    text-align: center;
+  }
+
+  .social-link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }
